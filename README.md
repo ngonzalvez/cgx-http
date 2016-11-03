@@ -69,6 +69,6 @@ That's because I don't know if the response is valid JSON, and because implement
 Well, this library is designed not to be very powerful (and by that I mean: with many features) just to save space, which is a really valuable asset in front-end web development. However, if you are working with node.js you don't have to download the libraries each time you execute the code or each time a new request arrives. Therefore, since you don't have that restriction, I would advice you to use a full-featured request library instead.
 
 
-## Sugestions & requests
+## Sugestions & feature requests
 
 If you have any suggestions on how to improve this library or a feature that you consider should be part of this library, please create a new issue to discuss it. If we decide that it should be part of the library, I will gladly implement it.

@@ -4,7 +4,6 @@
 var http = {
   request: function(method, url, params, headers, data) {
     var xhr = new XMLHttpRequest();
-    var self = this;
     var body = JSON.stringify(data);
     var encode = encodeURIComponent;
     var promise = new Promise();
@@ -12,7 +11,7 @@ var http = {
     var name;
 
     // Prepare the body for the request.
-    if (headers.Authorization !== 'application/json') {
+    if (headers && headers.Authorization !== 'application/json') {
       body = '';
 
       for (field in data) {

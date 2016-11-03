@@ -1,0 +1,23 @@
+{
+  "name": "cgx-http",
+  "description": "Minimal AJAX library.",
+  "main": "dist/cgx-http.min.js",
+  "authors": [
+    "Nicolas Gonzalvez <n.gonzalvez@outlook.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ajax",
+    "request",
+    "http",
+    "lightweight"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -30,22 +30,34 @@ http
 All params in the following methods, except for the url, are optional. However, if you must respect the order of the params. The library accept the following calls.
 
 **GET**
-`http.get(url, params, headers)`
+~~~javascript
+http.get(url, params, headers)
+~~~
 
 **POST**
-`http.post(url, params, headers, data)`
+~~~javascript
+http.post(url, params, headers, data)
+~~~
 
 **PUT**
-`http.put(url, params, headers, data)`
+~~~javascript
+http.put(url, params, headers, data)
+~~~
 
 **PATCH**
-`http.patch(url, params, headers, data)`
+~~~javascript
+http.patch(url, params, headers, data)
+~~~
 
 **DELETE**
-`http.put(url, params, headers)`
+~~~javascript
+http.put(url, params, headers)
+~~~
 
 **REQUEST**
-`http.request(method, url, params, headers, data)`
+~~~javascript
+http.request(method, url, params, headers, data)
+~~~
 
 
 ## FAQ

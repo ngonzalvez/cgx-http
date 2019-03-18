@@ -4,7 +4,7 @@ Minimal AJAX library.
 
 
 ## Why using this library?
-It's simple: because it weights 589 bytes.
+It's simple: because it weights 375 bytes compressed.
 
 If you're looking for a library with lots of functionalities, you are in the wrong place. However, if you need just a simple AJAX library and don't want to add several kilobytes to your already big enough bundle, then this is it.
 
